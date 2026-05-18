@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: aliceblue;
+            font-family: Arial, sans-serif;
+        }
+
+        /* HEADER */
+
+        .header-section {
+            background-color: darkslateblue;
+            color: white;
+            padding: 30px 10%;
+        }
+
+        /* HERO SECTION */
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        }
+
+        /* LEFT SIDE */
+
+        .hero-text {
+            flex: 1;
+        }
+
+        .hero-text h1 {
+            font-size: 45px;
+            margin-bottom: 10px;
+        }
+
+        .hero-text h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #d8d8ff;
+        }
+
+        .me {
+            font-style: italic;
+            line-height: 28px;
+            font-size: 18px;
+            max-width: 600px;
+        }
+
+        /* RIGHT SIDE IMAGE */
+
+        .hero-image {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 6px solid white;
+            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
+        }
+
+        /* SECTION HEADINGS */
+
+        .aboutt,
+        .certificate,
+        .contacts,
+        #pro,
+        #hack {
+            color: whitesmoke;
+            background-color: cadetblue;
+            border: 0;
+            padding: 10px 20px;
+            width: fit-content;
+            margin-top: 40px;
+            border-radius: 5px;
+        }
+
+        /* MAIN CONTENT */
+
+        .content {
+            padding: 40px 10%;
+        }
+
+        /* CERTIFICATE IMAGES */
+
+        .certificate-images {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .certificate-images img {
+            width: 300px;
+            height: 200px;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .certificate-images img:hover {
+            transform: scale(1.05);
+        }
+
+        /* TEXT */
+
+        h4 {
+            margin-top: 15px;
+        }
+
+        p {
+            margin-top: 10px;
+            line-height: 26px;
+        }
+
+        /* CONTACT */
+
+        .contact-info h3 {
+            margin-top: 15px;
+        }
+
+        /* RESPONSIVE */
+
+        @media(max-width: 900px) {
+
+            .hero {
+                flex-direction: column-reverse;
+                text-align: center;
+            }
+
+            .hero-image img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .hero-text h1 {
+                font-size: 35px;
+            }
+
+            .hero-text h2 {
+                font-size: 24px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- HEADER + HERO SECTION -->
+
+    <div class="header-section">
+
+        <div class="hero">
+
+            <!-- LEFT SIDE -->
+
+            <div class="hero-text">
+
+                <h1>Adharshini</h1>
+
+                <h2>Engineering Student</h2>
+
+                <p class="me">
+                    I am a 2nd-year Computer Science Engineering student at Anurag University with a strong interest in software development and emerging technologies.
+I am passionate about frontend development, backend development, and Generative AI.
+I have well knowledge of HTML, CSS, JavaScript, Python, and Java, and I enjoy building practical projects to improve my skills.
+I actively participate in internships, certifications, and hackathons to gain real-world experience and enhance my technical knowledge.
+
+                </p>
+
+            </div>
+
+            <!-- RIGHT SIDE IMAGE -->
+
+            <div class="hero-image">
+                <img src="profile.jpeg" alt="Profile Image">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAIN CONTENT -->
+
+    <div class="content">
+
+        <!-- JOB SIMULATION -->
+
+        <h2 class="aboutt">Job Simulation Certificates Achieved</h2>
+
+        <div class="certificate-images">
+
+            <a href="https://www.theforage.com/students/completion-express-interest/E6McHJDKsQYh79moz/CPX72fAD6d36sKDS6">
+                <img src="jp morghan.png" alt="JP Morgan">
+            </a>
+
+            <a href="https://www.theforage.com/simulations/deloitte-au/data-analytics-s5zy">
+                <img src="deloitte.png" alt="Deloitte">
+            </a>
+
+        </div>
+
+        <!-- CERTIFICATES -->
+
+        <h2 class="certificate">Certificates</h2>
+
+        <h4>Infosys: Programming In Java</h4>
+        <h4>Great Learning: Data Analytics Using Excel</h4>
+        <h4>Simple Learn: Basics Of Data Structures And Algorithms</h4>
+        <h4>Microsoft: Explore Generative AI</h4>
+        <h4>IBM Skills: Journey to Cloud</h4>
+
+        <!-- PROJECTS -->
+
+        <h2 id="pro">Projects</h2>
+
+        <p><b>Blood Care</b></p>
+        <p>
+            Blood Care is a web-based platform that helps users locate nearby
+            hospitals and request required blood groups in emergencies while
+            hospitals update real-time blood availability.
+        </p>
+
+        <p><b>Smart Disposal</b></p>
+        <p>
+            Smart Disposal is a waste management platform that helps users
+            identify proper disposal methods for different waste materials.
+        </p>
+
+        <p><b>AU Connect</b></p>
+        <p>
+            AU Connect is a student communication platform designed for sharing
+            academic updates and campus information.
+        </p>
+
+        <p><b>Curr Hub</b></p>
+        <p>
+            Curr Hub is a centralized platform for managing curriculum resources,
+            notes, and study materials.
+        </p>
+
+        <!-- HACKATHONS -->
+
+        <h2 id="hack">Hackathons</h2>
+
+        <p>Data Dynamo 2.0 Hackathon</p>
+        <p>Gen AI Hackathon</p>
+
+        <!-- CONTACT -->
+
+        <h2 class="contacts">Contacts</h2>
+
+        <div class="contact-info">
+
+            <h3>Email: lingampallyadharshini@gmail.com</h3>
+
+            <h3>
+                LinkedIn:
+                www.linkedin.com/in/adharshini-lingampally-645197356
+            </h3>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
