@@ -1,5 +1,7 @@
 # portfolio
+
 CSE student passionate about Web Development, Python, and Generative AI. Skilled in HTML, CSS, JavaScript, Python, and Java. Building projects, participating in hackathons, and continuously improving development and problem-solving skills.
+
 # Personal Portfolio Website
 
 A responsive personal portfolio website built using HTML and CSS to showcase profile details, skills, certifications, projects, hackathons, and contact information.
@@ -8,21 +10,21 @@ A responsive personal portfolio website built using HTML and CSS to showcase pro
 
 ## Features
 
-- Responsive portfolio layout
-- Hero section with profile image
-- About Me section
-- Certificates section
-- Projects showcase
-- Hackathon participation
-- Contact information
-- Clean and modern UI design
+* Responsive portfolio layout
+* Hero section with profile image
+* About Me section
+* Certificates section
+* Projects showcase
+* Hackathon participation
+* Contact information
+* Clean and modern UI design
 
 ---
 
 ## Technologies Used
 
-- HTML5
-- CSS3
+* HTML
+* CSS
 
 ---
 
@@ -32,8 +34,9 @@ A responsive personal portfolio website built using HTML and CSS to showcase pro
 portfolio-project/
 │
 ├── index.html
+├── style.css
 ├── profile.jpeg
-├── jp morghan.png
+├── jp_morghan.png
 ├── deloitte.png
 └── README.md
 ```
@@ -43,46 +46,59 @@ portfolio-project/
 ## File Description
 
 ### index.html
-Contains the complete structure and styling of the portfolio website.
+
+Contains the complete structure of the portfolio website.
+
+### style.css
+
+Contains all styling and responsive design for the portfolio website.
 
 ### profile.jpeg
-Profile image displayed in the hero section.
 
-### jp morghan.png
-Certificate image for JP Morgan Job Simulation.
+Profile image used in the hero section.
+
+### jp_morghan.png
+
+JP Morgan Job Simulation certificate image.
 
 ### deloitte.png
-Certificate image for Deloitte Job Simulation.
+
+Deloitte Job Simulation certificate image.
 
 ### README.md
-Project documentation and details.
+
+Documentation of the project.
 
 ---
 
 ## Sections Included
 
-- Hero Section
-- About Me
-- Job Simulation Certificates
-- Certifications
-- Projects
-- Hackathons
-- Contact Information
+* Hero Section
+* About Me
+* Job Simulation Certificates
+* Certifications
+* Projects
+* Hackathons
+* Contact Information
 
 ---
 
 ## Projects Included
 
 ### Blood Care
+
 A web platform for blood availability and emergency blood requests.
 
 ### Smart Disposal
+
 A waste management platform for proper disposal guidance.
 
 ### AU Connect
+
 A student communication and update-sharing platform.
 
 ### Curr Hub
+
 A centralized curriculum and study resource platform.
 
 ---
@@ -91,21 +107,13 @@ A centralized curriculum and study resource platform.
 
 1. Download or clone the repository
 2. Open the project folder
-3. Run `portfolio.html` in any web browser
+3. Run `index.html` in any web browser
 
 ---
-
-## Future Improvements
-
-- Add JavaScript animations
-- Add dark/light mode
-- Add project cards
-- Add responsive navigation bar
-- Deploy using GitHub Pages
-
----
+## Live demo link
+https://adharshini10.github.io/portfolio/
 
 ## Author
 
-Adharshini  
+Adharshini
 CSE Student | Web Development Enthusiast
