@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="32" fill="#702735"/>
+  <rect x="6" y="6" width="116" height="116" rx="26" fill="none" stroke="#D8B99B" stroke-width="2" stroke-opacity="0.6"/>
+  <text x="64" y="82" font-family="'Playfair Display', Georgia, serif" font-size="56" font-weight="700" fill="#FFF1E3" text-anchor="middle" letter-spacing="-1">AL<tspan fill="#D8B99B">.</tspan></text>
+</svg>

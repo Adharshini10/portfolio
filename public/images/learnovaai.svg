@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgLearnova" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF1E3"/>
+      <stop offset="50%" stop-color="#F2DFCE"/>
+      <stop offset="100%" stop-color="#E2CDBA"/>
+    </linearGradient>
+    <filter id="shadowAi" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#38251F" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" rx="24" fill="url(#bgLearnova)"/>
+
+  <!-- Neural Network Vector Mesh in background -->
+  <g opacity="0.18" stroke="#702735" stroke-width="1.5">
+    <circle cx="120" cy="80" r="4" fill="#702735"/>
+    <circle cx="220" cy="140" r="4" fill="#702735"/>
+    <circle cx="180" cy="240" r="4" fill="#702735"/>
+    <circle cx="320" cy="100" r="4" fill="#702735"/>
+    <circle cx="680" cy="120" r="4" fill="#702735"/>
+    <circle cx="720" cy="280" r="4" fill="#702735"/>
+    <circle cx="620" cy="380" r="4" fill="#702735"/>
+    <line x1="120" y1="80" x2="220" y2="140"/>
+    <line x1="220" y1="140" x2="180" y2="240"/>
+    <line x1="220" y1="140" x2="320" y2="100"/>
+    <line x1="680" y1="120" x2="720" y2="280"/>
+    <line x1="720" y1="280" x2="620" y2="380"/>
+  </g>
+
+  <!-- Central Interface Mockup -->
+  <g transform="translate(80, 50)" filter="url(#shadowAi)">
+    <rect width="640" height="400" rx="16" fill="#FFFFFF" stroke="#D8B99B" stroke-width="2"/>
+
+    <!-- App Header -->
+    <rect width="640" height="46" rx="16" fill="#38251F"/>
+    <rect y="30" width="640" height="16" fill="#38251F"/>
+    <circle cx="28" cy="23" r="5" fill="#702735"/>
+    <circle cx="44" cy="23" r="5" fill="#D8B99B"/>
+    <circle cx="60" cy="23" r="5" fill="#FFF1E3"/>
+    <text x="320" y="28" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#FFF1E3" text-anchor="middle" letter-spacing="1">LEARNOVAAI — AI LEARNING HUB & PDF ASSISTANT</text>
+
+    <!-- Two-column Workspace -->
+    <!-- Left Column: Document / PDF Q&A Reader -->
+    <g transform="translate(24, 66)">
+      <rect width="280" height="308" rx="10" fill="#FAF2EB" stroke="#D8B99B" stroke-width="1.5"/>
+      <rect x="14" y="14" width="90" height="22" rx="4" fill="#702735"/>
+      <text x="59" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#FFF1E3" text-anchor="middle">PDF READER</text>
+      <text x="114" y="29" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="600" fill="#38251F">DSA_Unit3.pdf</text>
+
+      <!-- Simulated Document Lines -->
+      <rect x="16" y="52" width="248" height="8" rx="4" fill="#D8B99B" opacity="0.6"/>
+      <rect x="16" y="68" width="220" height="8" rx="4" fill="#D8B99B" opacity="0.45"/>
+      <rect x="16" y="84" width="235" height="8" rx="4" fill="#D8B99B" opacity="0.45"/>
+
+      <!-- Highlighted Query Segment -->
+      <rect x="16" y="106" width="248" height="48" rx="6" fill="#D8B99B" fill-opacity="0.25" stroke="#702735" stroke-dasharray="3 3"/>
+      <text x="24" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#702735">Selected Passage for AI Analysis:</text>
+      <text x="24" y="140" font-family="'Plus Jakarta Sans', sans-serif" font-size="9.5" fill="#38251F">"Explain Dijkstra algorithm shortest path complexity..."</text>
+
+      <!-- Subject Modules -->
+      <text x="16" y="180" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="700" fill="#702735" letter-spacing="0.5">SUBJECT MODULES</text>
+      <rect x="16" y="192" width="118" height="34" rx="6" fill="#FFFFFF" stroke="#D8B99B"/>
+      <text x="24" y="213" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#38251F">Data Structures</text>
+
+      <rect x="146" y="192" width="118" height="34" rx="6" fill="#FFFFFF" stroke="#D8B99B"/>
+      <text x="154" y="213" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" fill="#38251F">Operating Sys</text>
+
+      <rect x="16" y="234" width="248" height="30" rx="6" fill="#702735" fill-opacity="0.1"/>
+      <text x="32" y="253" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#702735">Interactive Flashcards & Summaries</text>
+    </g>
+
+    <!-- Right Column: AI Study Assistant Dialogue -->
+    <g transform="translate(328, 66)">
+      <rect width="288" height="308" rx="10" fill="#FFFFFF" stroke="#D8B99B" stroke-width="1.5"/>
+      <rect x="14" y="14" width="260" height="30" rx="6" fill="#FFF1E3"/>
+      <circle cx="28" cy="29" r="6" fill="#702735"/>
+      <text x="42" y="33" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" font-weight="700" fill="#38251F">Learnova AI Assistant</text>
+
+      <!-- Chat Bubble User -->
+      <g transform="translate(40, 60)">
+        <rect width="220" height="36" rx="10" fill="#F4E7DA"/>
+        <text x="12" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" fill="#38251F">Summarize the PDF's 3 key takeaways</text>
+      </g>
+
+      <!-- Chat Bubble AI -->
+      <g transform="translate(14, 110)">
+        <rect width="260" height="96" rx="10" fill="#702735"/>
+        <text x="14" y="24" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="700" fill="#D8B99B">Learnova Response:</text>
+        <text x="14" y="44" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FFF1E3">1. Uses adjacency list representation: O((V+E)logV)</text>
+        <text x="14" y="62" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FFF1E3">2. Priority queue yields optimal relaxation</text>
+        <text x="14" y="80" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#FFF1E3">3. Non-negative edge weights precondition</text>
+      </g>
+
+      <!-- Input box -->
+      <g transform="translate(14, 252)">
+        <rect width="260" height="42" rx="8" fill="#FAF2EB" stroke="#D8B99B" stroke-width="1"/>
+        <text x="14" y="25" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" fill="#38251F" opacity="0.65">Ask any question on your course PDF...</text>
+        <rect x="216" y="8" width="34" height="26" rx="6" fill="#702735"/>
+        <path d="M 230,17 L 238,21 L 230,25" fill="none" stroke="#FFF1E3" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>

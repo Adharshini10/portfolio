@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <radialGradient id="avatarGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FFF8F0"/>
+      <stop offset="70%" stop-color="#EFE0D0"/>
+      <stop offset="100%" stop-color="#D8B99B"/>
+    </radialGradient>
+    <linearGradient id="burgundyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#702735"/>
+      <stop offset="100%" stop-color="#4E1622"/>
+    </linearGradient>
+    <linearGradient id="mochaGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D8B99B"/>
+      <stop offset="100%" stop-color="#BA987A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="500" height="500" rx="40" fill="url(#avatarGlow)"/>
+  
+  <!-- Subtle Architectural Rings -->
+  <circle cx="250" cy="230" r="180" fill="none" stroke="#D8B99B" stroke-width="2" stroke-dasharray="6 8" opacity="0.6"/>
+  <circle cx="250" cy="230" r="205" fill="none" stroke="#702735" stroke-width="1.5" opacity="0.25"/>
+
+  <!-- Decorative Botanical / Geometric Accent -->
+  <g opacity="0.15" stroke="#38251F" stroke-width="1.5" fill="none">
+    <path d="M 60,120 Q 90,80 140,90 Q 180,120 160,160 Q 110,180 60,120 Z"/>
+    <path d="M 380,360 Q 420,320 450,350 Q 460,400 410,420 Q 360,410 380,360 Z"/>
+  </g>
+
+  <!-- Silhouette / Stylized Avatar Figure -->
+  <g transform="translate(0, 10)">
+    <!-- Shoulders / Torso -->
+    <path d="M 120,440 C 130,340 180,320 250,320 C 320,320 370,340 380,440 C 360,460 300,470 250,470 C 200,470 140,460 120,440 Z" fill="url(#burgundyGrad)"/>
+    
+    <!-- Garment V-Neck detail -->
+    <path d="M 220,320 L 250,365 L 280,320" fill="none" stroke="#D8B99B" stroke-width="3"/>
+
+    <!-- Neck -->
+    <path d="M 225,260 L 225,325 C 235,335 265,335 275,325 L 275,260 Z" fill="#D8B99B"/>
+
+    <!-- Head / Jawline -->
+    <path d="M 195,190 C 195,265 220,295 250,295 C 280,295 305,265 305,190 C 305,130 280,105 250,105 C 220,105 195,130 195,190 Z" fill="#EAD5C2"/>
+
+    <!-- Elegant Hair Contour -->
+    <path d="M 190,195 C 180,140 200,85 250,85 C 300,85 320,140 310,195 C 325,240 320,285 315,310 C 305,290 305,230 300,200 C 295,150 280,120 250,120 C 220,120 205,150 200,200 C 195,230 195,290 185,310 C 180,285 175,240 190,195 Z" fill="#38251F"/>
+
+    <!-- Modern Minimalist Glasses / Eyewear -->
+    <g stroke="#702735" stroke-width="3.5" fill="none">
+      <rect x="210" y="180" width="32" height="24" rx="6" fill="#FFF1E3" fill-opacity="0.3"/>
+      <rect x="258" y="180" width="32" height="24" rx="6" fill="#FFF1E3" fill-opacity="0.3"/>
+      <path d="M 242,190 L 258,190"/>
+      <path d="M 200,188 L 210,188"/>
+      <path d="M 290,188 L 300,188"/>
+    </g>
+
+    <!-- Warm Minimal Facial Accents -->
+    <path d="M 245,215 L 250,225 L 246,230" fill="none" stroke="#702735" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 238,252 Q 250,260 262,252" fill="none" stroke="#702735" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Badge: AL Initials / Student Developer -->
+  <g transform="translate(320, 360)">
+    <rect width="135" height="42" rx="21" fill="#FFF1E3" stroke="#D8B99B" stroke-width="2" filter="drop-shadow(0 6px 12px rgba(56,37,31,0.12))"/>
+    <circle cx="24" cy="21" r="7" fill="#702735"/>
+    <text x="42" y="26" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#38251F" letter-spacing="0.5">DEV & AI</text>
+  </g>
+
+  <!-- Decorative Star Accents -->
+  <g fill="#702735" opacity="0.6">
+    <path d="M 100,240 Q 108,240 108,232 Q 108,240 116,240 Q 108,240 108,248 Q 108,240 100,240 Z"/>
+    <path d="M 400,140 Q 406,140 406,134 Q 406,140 412,140 Q 406,140 406,146 Q 406,140 400,140 Z"/>
+  </g>
+</svg>

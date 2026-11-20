@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#FFF8F0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Border & Frame -->
+  <rect width="600" height="420" rx="16" fill="url(#certBg)" stroke="#D8B99B" stroke-width="3"/>
+  <rect x="16" y="16" width="568" height="388" rx="10" fill="none" stroke="#702735" stroke-width="1.5" stroke-opacity="0.3"/>
+  <rect x="22" y="22" width="556" height="376" rx="8" fill="none" stroke="#D8B99B" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Corner Ornaments -->
+  <g fill="#702735" opacity="0.5">
+    <circle cx="32" cy="32" r="4"/>
+    <circle cx="568" cy="32" r="4"/>
+    <circle cx="32" cy="388" r="4"/>
+    <circle cx="568" cy="388" r="4"/>
+  </g>
+
+  <!-- Seal / Badge -->
+  <g transform="translate(300, 90)">
+    <circle cx="0" cy="0" r="34" fill="#702735"/>
+    <circle cx="0" cy="0" r="28" fill="none" stroke="#D8B99B" stroke-width="1.5"/>
+    <text x="0" y="6" font-family="'Playfair Display', Georgia, serif" font-size="20" font-weight="700" fill="#FFF1E3" text-anchor="middle">AL</text>
+  </g>
+
+  <!-- Certificate Text -->
+  <text x="300" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="700" fill="#702735" letter-spacing="3" text-anchor="middle">CERTIFICATE OF COMPLETION</text>
+  <text x="300" y="185" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#38251F" opacity="0.75" text-anchor="middle">This is proudly presented to</text>
+  
+  <text x="300" y="225" font-family="'Playfair Display', Georgia, serif" font-size="26" font-weight="700" fill="#38251F" text-anchor="middle">Adharshini Lingampally</text>
+  <line x1="160" y1="238" x2="440" y2="238" stroke="#D8B99B" stroke-width="1.5"/>
+
+  <text x="300" y="268" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="600" fill="#702735" text-anchor="middle">Technical Credential Placeholder</text>
+  <text x="300" y="290" font-family="'Plus Jakarta Sans', sans-serif" font-size="11" fill="#38251F" opacity="0.8" text-anchor="middle">Demonstrating practical proficiency &amp; domain knowledge</text>
+
+  <!-- Footer Seal & Signature lines -->
+  <g transform="translate(100, 340)">
+    <line x1="0" y1="0" x2="140" y2="0" stroke="#D8B99B" stroke-width="1.5"/>
+    <text x="70" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#38251F" text-anchor="middle">Issuing Authority</text>
+  </g>
+
+  <g transform="translate(360, 340)">
+    <line x1="0" y1="0" x2="140" y2="0" stroke="#D8B99B" stroke-width="1.5"/>
+    <text x="70" y="18" font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="600" fill="#38251F" text-anchor="middle">Verification Code: AL-CERT-VERIFIED</text>
+  </g>
+</svg>
